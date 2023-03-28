@@ -1,0 +1,106 @@
+/*Services Page By Wajeeha*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+.wrapper {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fafafa;
+}
+.wrapper h1 {
+  font-size: 3em;
+  margin: 25px 0;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  color: rgba(159, 152, 170, 0.8);
+}
+.wrapper p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: 30px;
+}
+.card {
+  min-height: 220px;
+  width: 320px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #605f5f5b;
+  margin: 10px 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card p {
+  color: #6c757d;
+  text-align: center;
+  justify-content: center;
+}
+.card:hover h2 {
+  font-weight: 500;
+  color: #f2f2f2;
+}
+.card:hover {
+  background: linear-gradient(
+      45deg,
+      rgba(159, 152, 170, 0.8) 0%,
+      rgba(159, 152, 170, 0.8) 100%
+    ),
+    url("Assets/servicepageimage.jpg");
+  background-size: cover;
+  transition: 0.4s ease;
+}
+@media screen and (max-width: 940px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .wrapper h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  .wrapper p {
+    font-weight: 400;
+  }
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    width: 85%;
+    display: flex;
+    min-width: 300px;
+    margin: 20px 0px;
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
